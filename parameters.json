@@ -1,0 +1,44 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "Udacity-VPC"
+	},
+    
+	{
+		"ParameterKey": "VpcCIDR",
+		"ParameterValue": "10.0.0.0/16"
+	},
+
+	{
+		"ParameterKey": "PblSubnetA",
+		"ParameterValue": "10.0.0.0/24"
+	},
+	{
+		"ParameterKey": "PblSubnetB",
+		"ParameterValue": "10.0.1.0/24"
+	},
+	{
+		"ParameterKey": "PrtSubnetA",
+		"ParameterValue": "10.0.2.0/24"
+	},
+	{
+		"ParameterKey": "PrtSubnetB",
+		"ParameterValue": "10.0.3.0/24"
+	},
+	{
+		"ParameterKey": "AvailabilityZoneA",
+		"ParameterValue": "us-east-1a"
+	},
+	{
+		"ParameterKey": "AvailabilityZoneB",
+		"ParameterValue": "us-east-1b"
+	},
+	{
+        "ParameterKey": "InstanceType",
+        "ParameterValue": "t2.medium"
+    },
+    {
+        "ParameterKey": "AMI",
+        "ParameterValue": "ami-0263e4deb427da90e"
+    }
+]
